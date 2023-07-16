@@ -1,0 +1,14 @@
+site:
+  title: "Khynsoft"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/developmentExecutable/khynsoft.js"
+      api: "build/libs/khynsoft.jar"
+    prod:
+      script: "build/distributions/khynsoft.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080
