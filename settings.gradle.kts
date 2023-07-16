@@ -6,6 +6,6 @@ pluginManagement {
     }
 }
 
-rootProject.name = "khynsoft"
+rootProject.name = "Khynsoft"
 
 include(":site")
