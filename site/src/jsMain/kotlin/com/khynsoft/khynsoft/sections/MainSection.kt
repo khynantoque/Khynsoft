@@ -6,6 +6,11 @@ import com.varabyte.kobweb.compose.foundation.layout.Box
 @Composable
 fun MainSection() {
     Box {
-
+        MainBackground()
     }
+}
+
+@Composable
+fun MainBackground() {
+
 }
