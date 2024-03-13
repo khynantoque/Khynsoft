@@ -1,9 +1,3 @@
-import React from 'react'
-
-function Home() {
-  return (
-    <div>Home</div>
-  )
+export default function Home() {
+    return <h1>Hello World</h1>
 }
-
-export default Home
