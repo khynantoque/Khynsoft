@@ -10,7 +10,9 @@ const NavBar = () => {
             {metadata.title}
           </span>
           <div className="flex space-x-4 text-gray-900">
+            <a href="#">Home</a>
             <a href="#">Works</a>
+            <a href="#">Services</a>
             <a href="/blog">Blog</a>
             <a href="#">Community</a>
             <a href="#">Contact Us</a>
@@ -25,7 +27,8 @@ const HeroPage = () => {
   return (
     <div className="flex flex-col items-center justify-center h-[40rem]  ">
       <p className="text-neutral-600 dark:text-neutral-200 text-xs sm:text-base  ">
-      At Khynsoft we specialize in designing, developing and providing Websites and Apps with blazing-fast efficiency.
+        At Khynsoft we specialize in designing, developing and providing
+        Websites and Apps with blazing-fast efficiency.
       </p>
       <TypewriterEffectSmooth
         words={[
@@ -37,7 +40,7 @@ const HeroPage = () => {
           },
           {
             text: "IT,",
-            className: "new"
+            className: "new",
           },
           {
             text: "To",
